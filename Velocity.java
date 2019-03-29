@@ -26,7 +26,7 @@ public class Velocity {
 		obj.put("cars", "Audi");
 		obj.put("bikes", "BMW");
 		list.add(obj);
-		obj = new HashMa<String, String>();
+		obj = new HashMap<String, String>();
 		obj.put("cars", "Tesla");
 		obj.put("bikes", "Suzuki");
 		list.add(obj);

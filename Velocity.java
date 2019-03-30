@@ -1,6 +1,6 @@
 import java.io.StringWriter;
 import java.util.ArrayList;
-//import java.util.HashMap;
+import java.util.HashMap;
 import java.util.Map;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
@@ -15,7 +15,7 @@ public class Velocity {
 		Template t = velocityObject.getTemplate("file.vm");
 		VelocityContext context = new VelocityContext();
 		context.put("name", "Sam");
-		//ArrayList<Object> list = new ArrayList<Object>();
+		ArrayList<Object> list = new ArrayList<Object>();
 		Map<String, String> obj = new HashMap<String, String>();
 		obj.put("cars", "Aston Martin");
 		obj.put("bikes", "Ducati");

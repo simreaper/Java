@@ -17,5 +17,4 @@ String phrase = WordList1[rand1] + " " + WordList2[rand2] + " " + WordList3[rand
 System.out.println("Hello " + phrase);
 
 }
-
 }

@@ -1,6 +1,6 @@
 public class MyProgram {
 public static void main(String[] args) {
-//String[] WordList1 = {"Ankit","Dharmesh","Scarlett","Flipo","Abhinav"};
+String[] WordList1 = {"Ankit","Dharmesh","Scarlett","Flipo","Abhinav"};
 String[] WordList2 = {"Has to do","should","must","Have to have"};
 String[] WordList3 = {"Work","Task","complete promise","follow the path"};
 

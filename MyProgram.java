@@ -9,7 +9,6 @@ int length3 = WordList3.length;
 int rand1 = (int) (Math.random() * length1);
 int rand2 = (int) (Math.random() * length2);
 int rand3 = (int) (Math.random() * length3);
-
 String phrase = WordList1[rand1] + " " + WordList2[rand2] + " " + WordList3[rand3];
 
 System.out.println("Hello " + phrase);

@@ -17,7 +17,7 @@ public class Velocity {
 		context.put("name", "Sam");
 		ArrayList<Object> list = new ArrayList<Object>();
 		Map<String, String> obj = new HashMap<String, String>();
-		obj.put("cars", "Aston Martin");
+		obj.put("cars", "Aston");
 		obj.put("bikes", "Ducati");
 		list.add(obj);
 		obj = new HashMap<String, String>();

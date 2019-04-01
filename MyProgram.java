@@ -6,7 +6,6 @@ String[] WordList3 = {"Work","Task","complete promise","follow the path"};
 int length1 = WordList1.length;
 int length2 = WordList2.length;
 int length3 = WordList3.length;
-
 int rand1 = (int) (Math.random() * length1);
 int rand2 = (int) (Math.random() * length2);
 int rand3 = (int) (Math.random() * length3);
